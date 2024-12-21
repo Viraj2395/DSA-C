@@ -40,7 +40,7 @@ struct Node* push(struct Node* top, int x){
     if(isFull(top)){
         printf("Stack Overflow\n");
     }
-    else{
+      else{
         struct Node* n = (struct Node*) malloc(sizeof(struct Node));
         n->data = x;
         n->next = top;

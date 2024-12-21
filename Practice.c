@@ -15,6 +15,7 @@ void LinkedList(struct Node * ptr){
     
 }
 
+
 int main(){
 
     struct Node * Head;
