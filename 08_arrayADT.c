@@ -11,7 +11,7 @@ void createArray(struct myArray * a,int t_size, int u_size){
     // (*a).total_size = t_size;
     // (*a).used_size = u_size;
     // (*a).ptr = (int*)malloc(t_size * sizeof(int));
-
+                        
     a->total_size = t_size;
     a->used_size = u_size;
     a->ptr = (int *)malloc(t_size * sizeof(int));
